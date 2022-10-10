@@ -10,8 +10,8 @@
 	margin-inline: auto;
 	margin-top: 10%;
 	background-color: #C3576F;
-	border-radius: 5px;
-	box-shadow: rgb(36 36 36) 1px 2px 2px 0px;
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 3px rgb(255 255 255 / 60%), inset -2px -2px 3px rgb(0 0 0 / 60%);
 }
 
 .buttons {
@@ -23,11 +23,11 @@
 button {
 	width: 50px;
 	height: 50px;
-	box-shadow: rgb(36 36 36) 1px 2px 2px 0px;
+	box-shadow: inset 2px 2px 3px rgb(255 255 255 / 60%), inset -2px -2px 3px rgb(0 0 0 / 60%);
 	background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
 	background-color: #ededed;
 	border-radius: 15px;
-	border: 1px solid #d6bcd6;
+	border: none;
 	display: inline-block;
 	cursor: pointer;
 	color: #2f2f2f;
@@ -42,7 +42,7 @@ button {
 button:active {
 	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
 	background-color: #bab1ba;
-	box-shadow: inset rgb(137 149 153) 1px 2px 2px 0px;
+	box-shadow: inset 2px 2px 3px rgb(0 0 0 / 35%), inset -2px -2px 3px rgb(255 255 255 / 60%);
 	border: none;
 }
 
