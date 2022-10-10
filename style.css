@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	border: 1px solid red;
 }
 
 .container {
@@ -51,14 +52,16 @@ button:active {
 }
 
 .display {
-	display: grid;
+	display: flex;
 	height: 50px;
 	align-items: center;
 	margin: 0 5px;
 	margin-top: 5px;
+	
 }
 
-h2 {
+.screen {
+
 	color: #2f2f2f;
 	text-align: right;
 	font-size: 30px;
