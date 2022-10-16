@@ -21,7 +21,7 @@
 	margin-bottom: 10px;
 }
 
-button {
+.buttons input {
 	width: 50px;
 	height: 50px;
 	box-shadow: inset 2px 2px 3px rgb(255 255 255 / 60%), inset -2px -2px 3px rgb(0 0 0 / 60%);
@@ -40,7 +40,7 @@ button {
 	margin: 3px;
 }
 
-button:active {
+.buttons input:active {
 	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
 	background-color: #bab1ba;
 	box-shadow: inset 2px 2px 3px rgb(0 0 0 / 35%), inset -2px -2px 3px rgb(255 255 255 / 60%);
@@ -60,8 +60,7 @@ button:active {
 	
 }
 
-.screen {
-
+#screen {
 	color: #2f2f2f;
 	text-align: right;
 	font-size: 30px;
@@ -71,4 +70,5 @@ button:active {
 	border-radius: 5px;
 	box-shadow: inset rgb(27 28 28) 2px 2px 2px 0px;
 	text-shadow: 2px 2px 2px #7d7d7d, 2px 2px 1px rgb(212 91 57 / 0%);
+	width: 100%;
 }
